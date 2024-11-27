@@ -1,10 +1,10 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import AppLoop from "./AppLoop";
+import AppFocus from "./AppFocus";
 import "./index.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <AppLoop />
+    <AppFocus />
   </StrictMode>
 );
